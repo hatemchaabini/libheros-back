@@ -1,3 +1,4 @@
+// PostgreSQL database configuration for LibHeros
 import { Injectable, OnModuleInit, OnModuleDestroy } from '@nestjs/common';
 import { Pool } from 'pg';
 
