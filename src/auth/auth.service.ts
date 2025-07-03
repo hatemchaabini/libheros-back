@@ -1,3 +1,4 @@
+// JWT Authentication service for LibHeros backend
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { UsersService, CreateUserDto } from '../users/users.service';
