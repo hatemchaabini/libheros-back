@@ -1,3 +1,4 @@
+// Tasks management service with CRUD operations and toggle functionality
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { DatabaseService } from '../database.service';
 import { ListesTachesService } from '../listes-taches/listes-taches.service';
