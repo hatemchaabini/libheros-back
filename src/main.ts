@@ -1,3 +1,4 @@
+// Main application file with CORS configuration for frontend communication
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
